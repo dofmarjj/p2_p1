@@ -1,0 +1,63 @@
+@import 'modules/_colors';
+$transition_base: ease-in-out 0.25s;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $white_color;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif;
+  min-height: 100vh;
+  transition: $transition_base;
+  overflow-x: hidden;
+  background-color: #212121;
+  background-image: url('../../assets/img/bg.png');
+  background-size: 100%;
+}
+
+.logo {
+  display: inline-block;
+  height: auto;
+}
+
+.logo > img {
+  object-fit: contain;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.visually-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+@import 'modules/fonts';
+@import 'modules/a11y';
+@import 'modules/grid';
+@import 'modules/components';
+@import 'modules/header';
+@import 'modules/hero';
+@import 'modules/how-it-works';
+@import 'modules/advantages';
+@import 'modules/public';
+@import 'modules/results';
+@import 'modules/mission';
+@import 'modules/page-404';

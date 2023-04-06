@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-display: swap;
+  src: local('Nunito Sans'), local('Nunito-Sans'), url('../../assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../../assets/fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-display: swap;
+  src: local('Nunito Sans'), local('Nunito-Sans'), url('../../assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('../../assets/fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Gilroy';
+}
+
+::-moz-placeholder {
+  font-family: 'Gilroy';
+}
+
+:-ms-input-placeholder {
+  font-family: 'Gilroy';
+}
+
+:-moz-placeholder {
+  font-family: 'Gilroy';
+}
